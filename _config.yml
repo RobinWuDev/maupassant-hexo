@@ -1,5 +1,5 @@
 fancybox: ## If you want to use fancybox please set the value to true.
-duoshuo: ## Your duoshuo_shortname, e.g. username
+duoshuo: robinwu ## Your duoshuo_shortname, e.g. username
 disqus: ## Your disqus_shortname, e.g. username
 google_search: ## Use Google search, true/false.
 baidu_search: ## Use Baidu search, true/false.
@@ -8,9 +8,14 @@ tinysou: ## Your tinysou_key, e.g. 4ac092ad8d749fdc6293
 self_search: ## Use a jQuery-based local search engine, true/false.
 google_analytics: ## Your Google Analytics tracking id, e.g. UA-42425684-2
 baidu_analytics: ## Your Baidu Analytics tracking id, e.g. 8006843039519956000
-shareto: ## If you want to use the share button please set the value to true.
+shareto: true ## If you want to use the share button please set the value to true.
 busuanzi: ## If you want to use Busuanzi page views please set the value to true.
-
+weibo_uid: 3369451532 ## If you want to user weibo page views please set the weibo_uid, e.g 12345567
+weibo_verifier: a46781a9 ##Please refer to http://weibo.com/tool/weiboshow to get your uid and verifier.
+github_user: RobinWuDev ##If you want to show your github Repos, please set your github username.
+github_repo_count: 0
+github_show_profile_link: true
+github_skip_forks: true
 menu:
   - page: home
     directory: .
@@ -18,19 +23,22 @@ menu:
   - page: archive
     directory: archives/
     icon: fa-archive
-  # - page: about
-  #   directory: about/
-  #   icon: fa-user
+  - page: about
+    directory: about/
+    icon: fa-user
   # - page: rss
   #   directory: atom.xml
   #   icon: fa-rss
 
 widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts, rencent_comments and links.
   # - search
+  - product
   - category
   # - tag
   - recent_posts
   - recent_comments
+  # - weibo
+  # - github
   # - links
 
 links:
@@ -47,3 +55,11 @@ css: css
 
 # Theme version
 version: 0.0.0
+
+products:
+  - title: Jay的音乐小站
+    url: http://music.444dish.com
+    isPage: false
+  - title: 公众号-停三秒
+    url: public
+    isPage: true

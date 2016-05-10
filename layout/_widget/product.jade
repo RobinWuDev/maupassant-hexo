@@ -1,0 +1,8 @@
+.widget
+  .widget-title
+    i(class='fa fa-product-hunt')= ' ' + __('products')
+  - for (var i in theme.products)
+      ul
+        - var url = theme.products[i].isPage?url_for(theme.products[i].url):theme.products[i].url
+        a(href='#{url}' title='#{theme.products[i].title}' target='_blank') #{theme.products[i].title}
+  

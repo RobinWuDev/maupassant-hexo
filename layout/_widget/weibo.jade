@@ -1,0 +1,7 @@
+if theme.weibo_uid
+  .widget
+    .widget-title
+      i(class='fa fa-weibo-o')= ' ' + __('新浪微博')
+      ul#weibo
+        li
+          iframe(width="100%" height="550" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=550&fansRow=2&ptype=1&speed=0&skin=2&isTitle=1&noborder=1&isWeibo=1&isFans=1&uid=#{theme.weibo_uid}&verifier=#{theme.weibo_verifier}&dpc=1")
