@@ -58,7 +58,7 @@ version: 0.0.0
 
 products:
   - title: Jay的音乐小站
-    url: http://music.444dish.com
+    url: http://music.robinwu.com
     isPage: false
   - title: 公众号-停三秒
     url: public
