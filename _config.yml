@@ -63,3 +63,6 @@ products:
   - title: 公众号-停三秒
     url: public
     isPage: true
+  - title: 肉饼屋Api
+    url: http://robinwu.com:8080/doc/index.html
+    isPage: false
