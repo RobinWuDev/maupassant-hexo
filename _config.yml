@@ -66,3 +66,6 @@ products:
   - title: 肉饼屋Api
     url: http://robinwu.com:8080/doc/index.html
     isPage: false
+  - title: 肉饼屋点歌台
+    url: http://robinwu.com:8080/ShareMusic/
+    isPage: false
