@@ -1,5 +1,5 @@
 fancybox: ## If you want to use fancybox please set the value to true.
-duoshuo: robinwu ## Your duoshuo_shortname, e.g. username
+duoshuo: ## Your duoshuo_shortname, e.g. username
 disqus: ## Your disqus_shortname, e.g. username
 google_search: ## Use Google search, true/false.
 baidu_search: ## Use Baidu search, true/false.
@@ -36,7 +36,6 @@ widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts
   - category
   # - tag
   - recent_posts
-  - recent_comments
   # - weibo
   # - github
   # - links
